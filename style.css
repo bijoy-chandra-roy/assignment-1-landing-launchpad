@@ -1,5 +1,6 @@
 body {
   font-family: "Raleway";
+  background-color: #F5F8FF;
 }
 header {
   background-image: url(/Assets/Hero-bg.png);
@@ -22,8 +23,8 @@ main {
   padding: 12px 34px;
   font-size: 16px;
 }
-.gray-text{
-color: #252432;
+.gray-text {
+  color: #252432;
 }
 /* Navbar Section */
 nav button {
@@ -38,65 +39,123 @@ nav {
 }
 /* Banner Section */
 .banner {
-    text-align: center;
+  text-align: center;
   height: 237px;
   width: 905px;
   margin: 158px auto 152px;
 }
-.banner h1{
-    font-size: 65px;
-    font-weight: bold;
+.banner h1 {
+  font-size: 65px;
+  font-weight: bold;
 }
 /* Action Section */
-.action{
-    display: flex;
-    justify-content: space-between;
-    margin: 116px auto;
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px auto;
 }
-#action-col-1{
-    width: 517px;
+#action-col-1 {
+  width: 517px;
 }
-.action h4{
-    font-size: 42px;
-    font-weight: bold;
+.action h4 {
+  font-size: 42px;
+  font-weight: bold;
 }
-.action p{
-    font-size: 24px;
-    font-weight: 400;
+.action p {
+  font-size: 24px;
+  font-weight: 400;
 }
-.action img{
-    border-radius: 48px;
+.action img {
+  border-radius: 48px;
 }
 /* Productive Users Section */
-.productive-users{
-    background-color:hsla(242, 100%, 64%, 0.1);
-    margin-bottom: 137px;
-    text-align: center;
-    border-radius: 24px;
-    padding: 50px 80px ;
+.productive-users {
+  background-color: hsla(242, 100%, 64%, 0.1);
+  margin-bottom: 137px;
+  text-align: center;
+  border-radius: 24px;
+  padding: 50px 80px;
 }
-.productive-users h5{
-    font-size: 38px;
-    font-weight: bold;
+.productive-users h5 {
+  font-size: 38px;
+  font-weight: bold;
 }
-.stats{
-    display: flex;
-    justify-content: space-around;
-    font-family: Inter;
+.stats {
+  display: flex;
+  justify-content: space-around;
+  font-family: Inter;
 }
 
-.number{
-    color: #4e47ff;
-    
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0;
+.number {
+  color: #4e47ff;
+
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
 }
-.productive-users .text{
-    color: #252432;
+.productive-users .text {
+  color: #252432;
 }
 /* Users’ Feedback Section */
-
+.feedback {
+  margin-bottom: 137px;
+}
+.feedback .title {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.card{
+    border-radius: 14px;
+    padding: 24px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border: #F2EDED;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user img {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  padding: 0px 12px 6px 0px;
+}
+.user .reviewer-name {
+  color: #757575;
+  font-size: 16px;
+  font: weight 600px;
+  margin-bottom: 0;
+}
+.user .date{
+    color: #B3B3B3;
+    font-size: 16px;
+    margin-top: 0px;
+}
 /* Call to action Section */
+.cta{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px 150px;
+}
+.cta h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.cta p{
+    color: hsla(0, 0%, 0%, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+.cta img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
 /* Let’s Get In Touch Section */
 /* Footer Section */
