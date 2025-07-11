@@ -1,11 +1,102 @@
+body {
+  font-family: "Raleway";
+}
+header {
+  background-image: url(/Assets/Hero-bg.png);
+}
+main {
+  margin: 0 150px;
+}
 /* Button Animation */
-/* Shared Styles */
 
+/* Shared Styles */
+.logo {
+  color: #4e47ff;
+  font-family: "Inter";
+}
+.button {
+  color: #ffffff;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 34px;
+  font-size: 16px;
+}
+.gray-text{
+color: #252432;
+}
 /* Navbar Section */
+nav button {
+  height: 48px;
+  width: 132px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  margin: 0 150px;
+}
 /* Banner Section */
+.banner {
+    text-align: center;
+  height: 237px;
+  width: 905px;
+  margin: 158px auto 152px;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+}
 /* Action Section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+}
+#action-col-1{
+    width: 517px;
+}
+.action h4{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.action img{
+    border-radius: 48px;
+}
 /* Productive Users Section */
+.productive-users{
+    background-color:hsla(242, 100%, 64%, 0.1);
+    margin-bottom: 137px;
+    text-align: center;
+    border-radius: 24px;
+    padding: 50px 80px ;
+}
+.productive-users h5{
+    font-size: 38px;
+    font-weight: bold;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter;
+}
+
+.number{
+    color: #4e47ff;
+    
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.productive-users .text{
+    color: #252432;
+}
 /* Users’ Feedback Section */
+
 /* Call to action Section */
 /* Let’s Get In Touch Section */
 /* Footer Section */
