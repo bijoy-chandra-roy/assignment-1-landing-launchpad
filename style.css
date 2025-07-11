@@ -12,7 +12,7 @@ main {
 /* Button Animation */
 .button:hover {
   background-color: black;
-  box-shadow: 0 12px 24px rgb(0, 0, 0);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.295);
 }
 /* Shared Styles */
 .logo {
