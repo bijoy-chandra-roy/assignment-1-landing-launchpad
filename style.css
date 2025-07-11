@@ -198,6 +198,7 @@ nav {
   font-family: Inter;
 }
 .connect label {
+  display: inline-block;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
