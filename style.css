@@ -11,8 +11,8 @@ main {
 }
 /* Button Animation */
 .button:hover {
-  background-color: #3a35a1;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  box-shadow: 0 12px 24px rgb(0, 0, 0);
 }
 /* Shared Styles */
 .logo {
