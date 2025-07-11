@@ -186,9 +186,7 @@ nav {
   padding: 71px 0px;
   margin-bottom: 14px;
 }
-.connect .column {
-  width: 50%;
-}
+
 #connect-col-1 h2 {
   height: 232px;
   max-width: 528px;
@@ -209,7 +207,7 @@ nav {
   width: 497px;
 
   font-size: 20px;
-  padding: 20px 32px;
+  padding: 20px 0 20px 32px;
   margin-bottom: 19px;
   font-weight: 400;
   display: block;
@@ -221,7 +219,7 @@ nav {
   height: 135px;
 }
 .connect .button {
-  width: 497px;
+  width: 531px;
 }
 /* Footer Section */
 footer {
